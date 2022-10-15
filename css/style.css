@@ -1,0 +1,192 @@
+
+body {
+    background:linear-gradient(to right, #b16fcb 0%, #660195 100%); 
+}
+
+.container .row .col .card {
+    border-radius: 20px;
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.225);
+}
+
+.container .row .col .card form h3 {
+    color: black;
+}
+
+.container .row .col .card form label {
+    color: black;
+    font-size: 17px;
+}
+
+.container .row .col .card form .pw{
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container .row .col .card form input {
+    background: rgba(255,255,255,0.45);
+    border-radius: 10px;
+    color: #b16fcb;
+}
+
+.container .row .col .card form .btn {
+    background-color: #660195;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.container .row .col .card form .btn:hover {
+    background-color: #8c12c4;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.container .row .col .card .bott-sign {
+    color: black;
+    font-size: 16px;
+}
+
+.container .row .col .card .bott-sign a{
+    color: #660195;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container .row .col .card .bott-sign a:hover{
+    color: #c07c06;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+form textarea,
+input[type="text"],
+input[type="textarea"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {   
+    background: rgba(255,255,255,0.45);
+    outline: 0 none;
+}
+
+form textarea:focus,
+input[type="text"]:focus,
+input[type="textarea"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+    border-color: #9d13dc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(205, 46, 240, 0.6);
+    outline: 0 none;
+}
+
+
+
+@media (max-width:768px) {
+    
+    .container .row .col .card form label {
+        color: black;
+        font-size: 17px;
+    }
+    
+    .container .row .col .card form .pw{
+        color: black;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    
+    .container .row .col .card form .btn {
+        background-color: #660195;
+        color: white;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    
+    .container .row .col .card form .btn:hover {
+        background-color: #8c12c4;
+        color: white;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    
+    .container .row .col .card .bott-sign {
+        color: black;
+        font-size: 16px;
+    }
+    
+    .container .row .col .card .bott-sign a{
+        color: #660195;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+}
+
+
+
+@media (max-width:450px) {
+    
+.container .row .col .card form label {
+    color: black;
+    font-size: 17px;
+}
+
+.container .row .col .card form .pw{
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container .row .col .card form .btn {
+    background-color: #660195;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.container .row .col .card form .btn:hover {
+    background-color: #8c12c4;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.container .row .col .card .bott-sign {
+    color: black;
+    font-size: 15px;
+}
+
+.container .row .col .card .bott-sign a{
+    color: #660195;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+}
