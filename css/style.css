@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: lato;
+}
 
 body {
     background:linear-gradient(to right, #b16fcb 0%, #660195 100%); 
@@ -13,6 +18,7 @@ body {
 
 .container .row .col .card form h3 {
     color: black;
+    font-weight: bold;
 }
 
 .container .row .col .card form label {
